@@ -86,7 +86,7 @@
       <xsl:element name="a">
         <xsl:attribute name="href">..</xsl:attribute>
 
-        <img src="/css/visualsvn/dir.png"/>
+        <img src="https://0xbilko.github.io/svnstyle/style1/css/visualsvn/dir.png"/>
         <xsl:text>&#160;</xsl:text>
         <xsl:text>..</xsl:text>
 
@@ -101,7 +101,7 @@
           <xsl:value-of select="@href"/>
         </xsl:attribute>
 
-        <img src="/css/visualsvn/dir.png"/>
+        <img src="https://0xbilko.github.io/svnstyle/style1/css/visualsvn/dir.png"/>
         <xsl:text>&#160;</xsl:text>
         <xsl:value-of select="@name"/>
 
@@ -117,7 +117,7 @@
           <xsl:value-of select="@href"/>
         </xsl:attribute>
 
-        <img src="/css/visualsvn/file.png"/>
+        <img src="https://0xbilko.github.io/svnstyle/style1/css/visualsvn/file.png"/>
         <xsl:text>&#160;</xsl:text>
         <xsl:value-of select="@name"/>
 
