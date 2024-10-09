@@ -14,8 +14,8 @@
   <xsl:template match="svn">
     <html>
       <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="https://0xbilko.github.io/svnstyle/style1/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://0xbilko.github.io/svnstyle/style1/favicon.ico" type="image/x-icon" />
         <title>
           <xsl:if test="string-length(index/@base) != 0">
             <xsl:value-of select="index/@base"/>
@@ -24,7 +24,7 @@
           <xsl:value-of select="index/@path"/>
           - VisualSVN Server
         </title>
-        <link rel="stylesheet" type="text/css" href="/svnindex.css"/>
+        <link rel="stylesheet" type="text/css" href="https://0xbilko.github.io/svnstyle/style1/svnindex.css"/>
       </head>
       <body>
         <div class="header">
