@@ -22,7 +22,7 @@
             <xsl:text>: </xsl:text>
           </xsl:if>
           <xsl:value-of select="index/@path"/>
-          - VisualSVN Server
+          - SVN Server
         </title>
         <link rel="stylesheet" type="text/css" href="https://0xbilko.github.io/svnstyle/style1/svnindex.css"/>
       </head>
@@ -30,7 +30,7 @@
         <div class="header">
           <xsl:element name="a">
             <xsl:attribute name="href">
-              <xsl:text>http://www.visualsvn.com/server/doc/</xsl:text>
+              <xsl:text>https://subversion.apache.org/docs/</xsl:text>
             </xsl:attribute>
             <xsl:text>Help</xsl:text>
           </xsl:element>
@@ -41,9 +41,9 @@
         <div class="footer">
           <xsl:element name="a">
             <xsl:attribute name="href">
-              <xsl:text>http://www.visualsvn.com/server/</xsl:text>
+              <xsl:text>/</xsl:text>
             </xsl:attribute>
-            <xsl:text>VisualSVN Server</xsl:text>
+            <xsl:text>SVN Server</xsl:text>
           </xsl:element>
           <xsl:text> powered by </xsl:text>
           <xsl:element name="a">
